@@ -109,8 +109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4424f0593f3f3a14b89ecce7ed41bece, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ConstantFloater
-  final_frequency: 2.7
-  amplitude: 0.6
+  final_frequency: 3.2
+  amplitude: 0.65
 --- !u!1 &6740361568356221949
 GameObject:
   m_ObjectHideFlags: 0

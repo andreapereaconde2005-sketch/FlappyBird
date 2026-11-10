@@ -3341,7 +3341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5929866635263149714, guid: fe1a67c4c3997214db352fc4fcc429b0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.18
+      value: 19.86
       objectReference: {fileID: 0}
     - target: {fileID: 5929866635263149714, guid: fe1a67c4c3997214db352fc4fcc429b0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3843,14 +3843,6 @@ PrefabInstance:
     - target: {fileID: 3129335315610309985, guid: b308947b0e2958948b7c9a879be2a293, type: 3}
       propertyPath: m_Name
       value: Obstaculo4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981604794880249721, guid: b308947b0e2958948b7c9a879be2a293, type: 3}
-      propertyPath: amplitude
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 8981604794880249721, guid: b308947b0e2958948b7c9a879be2a293, type: 3}
-      propertyPath: final_frequency
-      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 9085778807085593654, guid: b308947b0e2958948b7c9a879be2a293, type: 3}
       propertyPath: m_LocalPosition.x
