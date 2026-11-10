@@ -70,9 +70,19 @@ public class GateFinalCollisionController : MonoBehaviour
             // ---------------------------------------------
 
 
-            // --- CONGELAR TIEMPO DE JUEGO ---
+
+            // --- QUITAR LA GRAVEDAD AL PÁJARO CON SU RIGIDBODY ---
+            // Buscamos el Rigidbody del objeto que acaba de chocar (el pájaro) y desactivamos su gravedad
+            Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
+            if (rb != null) 
+            {
+                rb.useGravity = false;
+            }
+
+
+            // --- CONGELAR TIEMPO DE JUEGO --- NOO 
             // Esto detiene las físicas, movimientos por Update dependientes del tiempo y la gravedad.
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
             
             /*
             // Busco en toda la escena el controlador del nivel
